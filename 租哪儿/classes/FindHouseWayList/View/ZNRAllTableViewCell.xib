@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="allCellId" rowHeight="150" id="KGk-i7-Jjw" customClass="ZNRAllTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="363" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="363" height="149"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="海珠区 . 晓港 . 2室1厅1卫" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbc-LO-b5H">
+                        <rect key="frame" x="140" y="11" width="167" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥2100/月" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHI-gh-shb">
+                        <rect key="frame" x="140" y="62" width="64" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="1" green="0.59626732049999998" blue="0.16559450419999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zsl_bg3" translatesAutoresizingMaskIntoConstraints="NO" id="aOi-Sq-iSB">
+                        <rect key="frame" x="15" y="11" width="117" height="116"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="117" id="KLX-h4-vWB"/>
+                            <constraint firstAttribute="height" constant="116" id="uln-bg-Uwz"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 微信认证 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isz-fW-wO4" customClass="ZNRBorderLabel">
+                        <rect key="frame" x="189" y="111" width="60" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="YT7-oL-VVb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="1" green="0.39056431609999998" blue="0.15160174609999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 免中介费 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5n-Rc-tMX" customClass="ZNRBorderLabel">
+                        <rect key="frame" x="257" y="111" width="60" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="江南西路 . 整租 . 20m3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Veu-Jh-SdH">
+                        <rect key="frame" x="140" y="37" width="145" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.7035787563" green="0.68725632930000002" blue="0.58534618589999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 2号线 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQ9-Xe-d8z" customClass="ZNRBorderLabel">
+                        <rect key="frame" x="140" y="111" width="41" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="41" id="X4b-15-BPF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.1028063957" green="0.88470643940000004" blue="0.083278552089999999" alpha="0.98999999999999999" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L0Z-y7-SYv">
+                        <rect key="frame" x="5" y="148" width="353" height="1"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="A40-w3-jXg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="L0Z-y7-SYv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="1qg-Kk-fNo"/>
+                    <constraint firstItem="zHI-gh-shb" firstAttribute="leading" secondItem="Veu-Jh-SdH" secondAttribute="leading" id="BMO-4R-5pN"/>
+                    <constraint firstItem="aOi-Sq-iSB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="Cbi-Hg-gfB"/>
+                    <constraint firstItem="isz-fW-wO4" firstAttribute="leading" secondItem="nQ9-Xe-d8z" secondAttribute="trailing" constant="8" id="Cch-ms-ii8"/>
+                    <constraint firstItem="xbc-LO-b5H" firstAttribute="top" secondItem="aOi-Sq-iSB" secondAttribute="top" id="OZa-Jk-jBP"/>
+                    <constraint firstItem="aOi-Sq-iSB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="P7O-Da-083"/>
+                    <constraint firstItem="nQ9-Xe-d8z" firstAttribute="leading" secondItem="aOi-Sq-iSB" secondAttribute="trailing" constant="8" id="Pye-4K-WJA"/>
+                    <constraint firstItem="Veu-Jh-SdH" firstAttribute="top" secondItem="xbc-LO-b5H" secondAttribute="bottom" constant="8" id="QZ5-Vg-7aw"/>
+                    <constraint firstItem="Veu-Jh-SdH" firstAttribute="leading" secondItem="xbc-LO-b5H" secondAttribute="leading" id="UQn-Lc-MSE"/>
+                    <constraint firstAttribute="trailing" secondItem="L0Z-y7-SYv" secondAttribute="trailing" constant="5" id="WJ9-1v-nNE"/>
+                    <constraint firstAttribute="bottom" secondItem="L0Z-y7-SYv" secondAttribute="bottom" id="ZDQ-9d-YeW"/>
+                    <constraint firstItem="xbc-LO-b5H" firstAttribute="leading" secondItem="aOi-Sq-iSB" secondAttribute="trailing" constant="8" id="gWH-oa-Mck"/>
+                    <constraint firstItem="zHI-gh-shb" firstAttribute="top" secondItem="Veu-Jh-SdH" secondAttribute="bottom" constant="8" id="h4o-Qd-ye3"/>
+                    <constraint firstItem="G5n-Rc-tMX" firstAttribute="leading" secondItem="isz-fW-wO4" secondAttribute="trailing" constant="8" id="iYF-xZ-Q7w"/>
+                    <constraint firstItem="nQ9-Xe-d8z" firstAttribute="bottom" secondItem="aOi-Sq-iSB" secondAttribute="bottom" id="lFm-qV-QXp"/>
+                    <constraint firstItem="G5n-Rc-tMX" firstAttribute="bottom" secondItem="isz-fW-wO4" secondAttribute="bottom" id="pFv-yh-Eag"/>
+                    <constraint firstItem="isz-fW-wO4" firstAttribute="bottom" secondItem="nQ9-Xe-d8z" secondAttribute="bottom" id="y8M-hv-gFl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cover_picture" destination="aOi-Sq-iSB" id="bg2-ot-zW9"/>
+                <outlet property="payment" destination="zHI-gh-shb" id="9qA-VV-ETP"/>
+                <outlet property="room_name" destination="xbc-LO-b5H" id="pkp-0v-CGW"/>
+                <outlet property="servers" destination="G5n-Rc-tMX" id="afW-4l-oqv"/>
+                <outlet property="square" destination="Veu-Jh-SdH" id="ZFd-KN-AU6"/>
+                <outlet property="subway" destination="nQ9-Xe-d8z" id="bN8-dk-IMp"/>
+                <outlet property="subwayLineLayoutC" destination="Pye-4K-WJA" id="RJs-pG-1Vg"/>
+                <outlet property="subwayLineWidth" destination="X4b-15-BPF" id="Fgr-7v-y9N"/>
+                <outlet property="wechatLineLayoutC" destination="Cch-ms-ii8" id="kk2-Tt-Un6"/>
+                <outlet property="wechatLineWidth" destination="YT7-oL-VVb" id="b01-sq-GfO"/>
+                <outlet property="wechat_bind" destination="isz-fW-wO4" id="Zd4-nB-bn0"/>
+            </connections>
+            <point key="canvasLocation" x="241.5" y="187"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="zsl_bg3" width="621" height="1104"/>
+    </resources>
+</document>

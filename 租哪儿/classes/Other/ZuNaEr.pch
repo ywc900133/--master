@@ -1,0 +1,46 @@
+
+//
+//  ZuNaEr.pch
+//  租哪儿
+//
+//  Created by yuan on 16/4/7.
+//  Copyright © 2016年 zunars. All rights reserved.
+//
+
+/*
+ 提前编译
+ */
+
+#ifdef __OBJC__ // OC文件
+
+//#import "UIColor+Hex.h"
+//#import "UIImage+Image.h"
+#import "UIView+ZNRFrame.h"
+//#import "UIBarButtonItem+Item.h"
+//#import "GlobeConst.h"
+
+// 打印方法
+#define ZNRFunc ZNRLog(@"%s",__func__);
+
+// 自定义LOG
+#ifdef DEBUG // 调试阶段
+
+#define ZNRLog(...) NSLog(__VA_ARGS__);
+
+#else // 发布阶段
+
+#define ZNRLog(...)
+
+#endif
+
+// 屏幕尺寸
+#define ZNRScreenW [UIScreen mainScreen].bounds.size.width
+#define ZNRScreenH [UIScreen mainScreen].bounds.size.height
+
+// 屏幕适配
+#define iPhone4 (ZNRScreenH == 480)
+#define iPhone5 (ZNRScreenH == 568)
+#define iPhone6 (ZNRScreenH == 667)
+#define iPhone6p (ZNRScreenH == 736)
+
+#endif

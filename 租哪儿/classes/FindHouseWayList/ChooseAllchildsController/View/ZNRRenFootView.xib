@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZNRRenFootView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="153"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="自定义价格" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xYj-aQ-V91">
+                    <rect key="frame" x="145" y="29" width="85" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tlQ-ne-b97">
+                    <rect key="frame" x="183" y="62" width="8" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fFz-Wk-dwz">
+                    <rect key="frame" x="144" y="96" width="87" height="31"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UsK-o0-jDr">
+                            <rect key="frame" x="1" y="1" width="85" height="29"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="确定">
+                                <color key="titleColor" red="1" green="0.86329571469999999" blue="0.21159313339999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="certainBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="ziR-Wn-XIl"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.86329571469999999" blue="0.21159313339999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="UsK-o0-jDr" secondAttribute="bottom" constant="1" id="88Q-4c-FTP"/>
+                        <constraint firstAttribute="height" constant="31" id="KAW-ix-YlE"/>
+                        <constraint firstItem="UsK-o0-jDr" firstAttribute="top" secondItem="fFz-Wk-dwz" secondAttribute="top" constant="1" id="S4n-Ad-EVL"/>
+                        <constraint firstItem="UsK-o0-jDr" firstAttribute="leading" secondItem="fFz-Wk-dwz" secondAttribute="leading" constant="1" id="Xks-Jq-KR9"/>
+                        <constraint firstAttribute="width" constant="87" id="aVe-bN-Ere"/>
+                        <constraint firstAttribute="trailing" secondItem="UsK-o0-jDr" secondAttribute="trailing" constant="1" id="gxG-WB-e5B"/>
+                    </constraints>
+                </view>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2ry-ue-r2s">
+                    <rect key="frame" x="226" y="58" width="97" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="97" id="AQP-Xw-VWq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="69y-rk-axX">
+                    <rect key="frame" x="52" y="58" width="97" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="97" id="qrs-zT-ETh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="2ry-ue-r2s" firstAttribute="leading" secondItem="tlQ-ne-b97" secondAttribute="trailing" constant="34" id="6Kq-k9-dUS"/>
+                <constraint firstItem="fFz-Wk-dwz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9Tq-tz-ESc"/>
+                <constraint firstItem="xYj-aQ-V91" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="29" id="DRX-Qw-VKB"/>
+                <constraint firstItem="xYj-aQ-V91" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="FAh-Kb-7lm"/>
+                <constraint firstItem="tlQ-ne-b97" firstAttribute="top" secondItem="xYj-aQ-V91" secondAttribute="bottom" constant="12" id="GxH-J9-DzW"/>
+                <constraint firstItem="tlQ-ne-b97" firstAttribute="centerX" secondItem="xYj-aQ-V91" secondAttribute="centerX" id="Hdy-Z6-fVL"/>
+                <constraint firstItem="fFz-Wk-dwz" firstAttribute="top" secondItem="69y-rk-axX" secondAttribute="bottom" constant="8" id="cua-td-07L"/>
+                <constraint firstItem="tlQ-ne-b97" firstAttribute="leading" secondItem="69y-rk-axX" secondAttribute="trailing" constant="34" id="mn9-3s-XW5"/>
+                <constraint firstItem="2ry-ue-r2s" firstAttribute="centerY" secondItem="tlQ-ne-b97" secondAttribute="centerY" id="ykm-NZ-IRQ"/>
+                <constraint firstItem="69y-rk-axX" firstAttribute="centerY" secondItem="tlQ-ne-b97" secondAttribute="centerY" id="ywM-VI-kjl"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="hightPayTextF" destination="2ry-ue-r2s" id="Ehd-M0-qHB"/>
+                <outlet property="lowPayTextF" destination="69y-rk-axX" id="rDr-Nk-pMA"/>
+            </connections>
+            <point key="canvasLocation" x="276.5" y="33.5"/>
+        </view>
+    </objects>
+</document>
